@@ -1,0 +1,34 @@
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  margin: auto;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.ant-form-item-label {
+  text-align: left !important;
+  width: 135px !important;
+}
+
+.ant-col-8 {
+  flex: none !important;
+}
+
+.signup-acc {
+  margin: 10px 8px;
+  /* text-align: center; */
+}
+
+.error-class {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+  /* font-weight: bold; */
+}

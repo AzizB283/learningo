@@ -1,0 +1,129 @@
+.select-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 550px) {
+  .select-dropdown {
+    margin: 10px 10px;
+    /* height: calc(100vh - 120px); */
+    /* overflow-y: auto; */
+  }
+}
+.ant-select {
+  margin-top: 20px;
+}
+
+h1,
+h2 {
+  color: rgb(97, 136, 123);
+  margin-top: 12px;
+}
+
+.sbmt-btn {
+  margin-top: 10px;
+  background-color: rgb(97, 136, 123);
+  width: 120px;
+}
+
+.sbmt-btn:hover {
+  background-color: rgb(100, 147, 120) !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: rgb(158, 168, 165) !important;
+}
+
+.ant-select-selector {
+  border-color: rgb(97, 136, 123) !important;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.progress-bar .ant-progress {
+  margin-top: 20px;
+}
+
+.progress-bar > div {
+  /* margin-left: 20px; */
+  padding: 20px 70px;
+}
+
+@media only screen and (max-width: 575px) {
+  .progress-bar > div {
+    /* margin-left: 20px; */
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+  .progress-bar > div {
+    /* margin-left: 20px; */
+    padding: 20px 20px;
+  }
+}
+
+.insider-card {
+  height: 100px;
+  width: 400px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+
+  @media screen and (max-width: 550px) {
+    width: 300px;
+  }
+}
+
+.insider-card:last-child {
+  margin-bottom: 10px;
+}
+
+.card-1 {
+  background-color: rgb(206, 221, 177);
+}
+
+.card-2 {
+  background-color: rgb(236, 168, 236);
+}
+
+.card-3 {
+  background-color: rgb(181, 217, 248);
+}
+
+/* .insider-card.selected {
+  opacity: 1;
+}
+
+.insider-card:not(.selected) {
+  opacity: 0.5;
+} */
+.not-selected {
+  opacity: 0.5;
+}
+
+.error-class {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.progress-para {
+  font-size: 18px;
+  margin-top: 10px;
+}

@@ -1,0 +1,36 @@
+.card {
+  /* height: 100%; */
+  /* width: 100%; */
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(181, 217, 248);
+}
+
+.pro-test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 0 30px;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.card-body p {
+  margin: 20px 0 0 20px;
+  font-size: 22px;
+}
+
+.card-body p:last-child {
+  margin-bottom: 20px;
+}
+
+.prev-next {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
